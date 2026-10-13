@@ -1,0 +1,57 @@
+{
+  "version": "1.8",
+  "checked_date": "2026-10-12",
+  "index_source": "https://wiki.otponline.com/Quests",
+  "scope": "Revisão documental das páginas individuais disponíveis; não é uma verificação dentro do cliente do jogo.",
+  "verified_access": [
+    {
+      "name": "Boost Free",
+      "status": "Free confirmado",
+      "source": "https://wiki.otponline.com/Boost_Free",
+      "evidence": "Level 250+, Pokémon com Surf, VIP: Não."
+    },
+    {
+      "name": "A Lost Melody",
+      "status": "Excluída — Premium",
+      "source": "https://wiki.otponline.com/A_Lost_Melody",
+      "evidence": "Página individual marca Premium."
+    },
+    {
+      "name": "Boost Hell",
+      "status": "Excluída — Premium",
+      "source": "https://wiki.otponline.com/Boost_Hell",
+      "evidence": "Requisitos incluem VIP: Sim, level 250+ e Fly."
+    },
+    {
+      "name": "Burned",
+      "status": "Excluída — Premium",
+      "source": "https://wiki.otponline.com/Burned",
+      "evidence": "Requisitos incluem VIP e quests anteriores, Fly e itens."
+    },
+    {
+      "name": "Milotic",
+      "status": "Excluída — Premium",
+      "source": "https://wiki.otponline.com/Quest_Milotic",
+      "evidence": "Requisitos incluem Premium Account e Pokémon com Fly ou Surf."
+    },
+    {
+      "name": "Remembrance",
+      "status": "Excluída — Premium",
+      "source": "https://wiki.otponline.com/Remembrance",
+      "evidence": "Página descreve hunt exclusiva em continente VIP."
+    },
+    {
+      "name": "999",
+      "status": "Excluída — Premium",
+      "source": "https://wiki.otponline.com/Porta_999",
+      "evidence": "Requisitos incluem level 999 e VIP."
+    }
+  ],
+  "still_pending": "As demais quests sem confirmação individual explícita de acesso Free/Premium permanecem pendentes. A ausência de marca Premium no índice não é prova suficiente de acessibilidade completa, pois pode haver requisitos de localização, habilidade ou progressão.",
+  "map_limitations": "O mapa 3D é conceitual, sem coordenadas oficiais. Os marcadores são distribuídos visualmente e não devem ser usados como rota precisa dentro do jogo.",
+  "technical_notes": [
+    "A janela 3D roda em processo separado para que o app Tkinter permaneça responsivo.",
+    "Three.js é carregado pela internet; pywebview é dependência opcional.",
+    "O ciclo de renderização é encerrado e os recursos gráficos são liberados ao fechar a janela."
+  ]
+}
